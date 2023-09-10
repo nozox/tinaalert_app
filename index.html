@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@2.0.2-alpha/dist/css/materialize.min.css">
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@2.0.2-alpha/dist/js/materialize.min.js"></script>
+    </head>
+  <body>
+    <div class="row">
+        <div class="col m6 offset-m3" style="margin-top: 30px;">
+        <div class="card">
+            <div class="card-content">
+            <span class="card-title blue-text" style="margin-bottom: 20px;">TINA ALART</span>
+            <div class="row" style="margin-bottom: 30px;">
+                <div class="input-field col s12">
+                    <label for="user">user name:</label><input type="text" id="user">
+                </div>
+                <div class="input-field col s12">
+                    <label for="pass">password:</label><input type="text" id="pass">
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">message</label>
+                </div>
+            </div>
+            <div class="card-action" style="margin: 20px;">
+                <button id="sendBtn" class="btn waves-effect waves-light">SEND</button>
+            </div>
+        </div>
+            <div id="memo"></div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
